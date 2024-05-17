@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Customizing a 404-error_page
+# Customizing a  HTTP response header  web-01 web-02
 
 # Updating Packages before performing installations
 sudo apt-get update
