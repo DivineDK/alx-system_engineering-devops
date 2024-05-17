@@ -11,11 +11,11 @@ apt-get -y install haproxy
 # edit config file
 server_config=\
 "
-frontend  besthor_frontend
+frontend DivineDK_frontend
         bind *:80
         mode http
-        default_backend besthor_backend
-backend besthor_backend
+        default_backend DivineDK_backend
+backend DivineDK_backend
         balance roundrobin
         server 492797-web-01 35.174.200.107:80 check
         server 492797-web-02 54.144.153.172:80 check
