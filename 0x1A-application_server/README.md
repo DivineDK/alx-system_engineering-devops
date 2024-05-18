@@ -1,1 +1,1 @@
-application_server
+APPLICATION SERVER
